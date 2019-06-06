@@ -1,0 +1,32 @@
+/* Add your own CSS rules here */
+#description {
+  margin: 0 0 1em 0;
+}
+
+tei-teiHeader {
+  display: none;
+}
+
+tei-head {
+  color: red;
+  text-align: center;
+  border: 1px solid blue;
+
+}
+
+div {
+  color: black;
+  text-align: center;
+  border: 2px solid red;
+}
+
+tei-dateline {
+  color: red;
+  font-size: 20;
+}
+
+tei-postscript:before {
+  content: "Postscript";
+  text-decoration: underline;
+  font-style: oblique;
+}
